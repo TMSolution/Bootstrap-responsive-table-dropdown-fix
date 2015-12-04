@@ -32,3 +32,16 @@ $(".table-responsive .dropdown").on("show.bs.dropdown", function () {
  $(container).append(element)
   
                 });
+                
+                
+ $(document).mouseup(function (e)
+                    {
+                        
+                        var container = $(".dropdown-temp-container .dropdown-temporary");
+
+                        if (!container.is(e.target) // if the target of the click isn't the container...
+                                && container.has(e.target).length === 0) // ... nor a descendant of the container
+                        {
+                            container.hide();
+                        }
+                    });                
