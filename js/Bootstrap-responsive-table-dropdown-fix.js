@@ -28,7 +28,7 @@ $(".table-responsive .dropdown").on("show.bs.dropdown", function () {
          .css('position','absolute') 
          .addClass('dropdown-temporary');
          
-  element.on('click', function (){ $(this).remove()})        
+  element.on('click', function (){ $(this).css('display','none')})        
  $(container).append(element)
   
                 });
