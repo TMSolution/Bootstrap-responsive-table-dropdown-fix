@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-responsive-table-dropdown-fix",
+  "description": "bootstrap responsive-table dropdown fix",
+  "keywords": [
+    "bootstrap",
+    "responsive-table",
+    "dropdown",
+    "fix"
+  
+  ],
+  "version": "1.0",
+  "authors": [
+    "Mariusz Piela"
+  ],
+  "license": "MIT"
+  
+}
